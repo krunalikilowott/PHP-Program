@@ -69,7 +69,6 @@
         $input = $_POST["inputArray"];
         $myArray = explode(" ", $input);
 
-        // Convert the array elements to integers
         $myArray = array_map('intval', $myArray);
 
         $sortedArray = bubbleSort($myArray);
